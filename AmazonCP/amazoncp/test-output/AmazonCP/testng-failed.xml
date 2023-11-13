@@ -4,14 +4,13 @@
   <test thread-count="5" name="EcommerceTest(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.amazon.testcases.TC_LoginTest">
+      <class name="com.amazon.testcases.TC_SearchTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testLoginDDT" invocation-numbers="3"/>
-          <include name="invokeBaseURL"/>
+          <include name="testSearchProduct"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.testcases.TC_LoginTest -->
+      </class> <!-- com.amazon.testcases.TC_SearchTest -->
     </classes>
   </test> <!-- EcommerceTest(failed) -->
 </suite> <!-- Failed suite [AmazonCP] -->

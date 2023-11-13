@@ -59,13 +59,13 @@ public class TC_LoginTest extends BaseClass {
 				lp.SignOut();
 				Assert.assertTrue(true);
 			} else {
-				captureScreen(driver, "testLoginDDT");
+//				captureScreen(driver, "testLoginDDT");
 				logger.warn("testLoginDDT failed because of invalid password: " + pwd);
 				Assert.assertFalse(false);
 			}
 
 		} else {
-			captureScreen(driver, "testLoginDDT");
+//			captureScreen(driver, "testLoginDDT");
 			logger.warn("testLoginDDT failed because of invalid id: " + user);
 			Assert.assertFalse(false);
 		}

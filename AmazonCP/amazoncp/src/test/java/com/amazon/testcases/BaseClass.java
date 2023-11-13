@@ -19,6 +19,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import com.amazon.pageobject.LoginPage;
 import com.amazon.utilities.ReadConfig;
 
 public class BaseClass {
@@ -73,5 +74,19 @@ public class BaseClass {
 	public String randomNum(int size) {
 		String randomNumeric = RandomStringUtils.randomNumeric(size);
 		return randomNumeric;
+	}
+	
+	public void signIn() {
+		LoginPage lp = new LoginPage(driver);
+		lp.clickSignIn();
+		lp.setEmailORPhone(userId);
+		lp.continueSignIn();
+		lp.setPassword(password);
+		lp.submitSignIn();
+	}
+	
+	public void signOut() throws InterruptedException {
+		LoginPage lp = new LoginPage(driver);
+		lp.SignOut();
 	}
 }

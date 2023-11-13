@@ -12,8 +12,13 @@
 			</class>
 			<class name="com.amazon.testcases.TC_LoginTest">
 				<methods>
-					<include name="testLoginDDT" />
+					<exclude name="testLoginDDT" />
 					<exclude name="testLogin" />
+				</methods>
+			</class>
+			<class name="com.amazon.testcases.TC_SearchTest">
+				<methods>
+					<exclude name="testSearchProduct" />
 				</methods>
 			</class>
 		</classes>

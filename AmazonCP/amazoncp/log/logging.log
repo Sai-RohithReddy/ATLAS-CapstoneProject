@@ -19,4 +19,18 @@
  2023-11-12 23:34:50 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
  2023-11-12 23:35:22 INFO  BaseClass:55 - Puzzle Check Enabled
  2023-11-12 23:35:23 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-13 11:51:36 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-13 12:36:53 INFO  BaseClass:27 - URL is opened
+ 2023-11-13 12:36:54 INFO  BaseClass:30 - Registration page is opened
+ 2023-11-13 12:36:55 INFO  BaseClass:33 - YORUxORB is entered
+ 2023-11-13 12:36:55 INFO  BaseClass:35 - YORUxORB@gmail.com is entered
+ 2023-11-13 12:36:55 INFO  BaseClass:37 - pLww9382 is entered
+ 2023-11-13 12:37:34 INFO  BaseClass:27 - URL is opened
+ 2023-11-13 12:37:35 INFO  BaseClass:30 - Registration page is opened
+ 2023-11-13 12:37:36 INFO  BaseClass:33 - KDlMAttW is entered
+ 2023-11-13 12:37:36 INFO  BaseClass:35 - KDlMAttW@gmail.com is entered
+ 2023-11-13 12:37:36 INFO  BaseClass:37 - KPvP8661 is entered
+ 2023-11-13 12:37:36 INFO  BaseClass:39 - KPvP8661 is entered for confirmation
+ 2023-11-13 12:37:41 INFO  BaseClass:45 - Registration with email Succeeded
+ 2023-11-13 18:29:08 INFO  BaseClass:30 - testLogin executed successfully
  
