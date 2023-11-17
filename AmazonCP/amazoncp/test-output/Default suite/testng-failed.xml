@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.testcases.TC_LoginTest">
+      <class name="com.amazon.testcases.TC_CheckOutTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testLoginDDT"/>
-          <include name="invokeBaseURL"/>
           <include name="setup"/>
-          <include name="testLogin"/>
+          <include name="testCheckOut"/>
         </methods>
-      </class> <!-- com.amazon.testcases.TC_LoginTest -->
+      </class> <!-- com.amazon.testcases.TC_CheckOutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -21,6 +21,17 @@
 					<exclude name="testSearchProduct" />
 				</methods>
 			</class>
+			<class name="com.amazon.testcases.TC_CartFunctionalityTest">
+				<methods>
+					<include name="testAddToCart" />
+					<exclude name="testRemoveFromCart" />
+				</methods>
+			</class>
+			<class name="com.amazon.testcases.TC_CheckOutTest">
+				<methods>
+					<exclude name="testCheckOut" />
+				</methods>
+			</class>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

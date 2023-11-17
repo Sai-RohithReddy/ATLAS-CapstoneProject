@@ -38,6 +38,7 @@ public class TC_SearchTest extends BaseClass{
 			sp.clickFirstProduct();
 			
 			flag = true;
+			logger.info("Search operation succeeded with product name: " + product.toUpperCase());
 		}
 		
 		Assert.assertTrue(flag);

@@ -22,18 +22,31 @@ public class ReadConfig {
 	}
 
 	public String getApplicationURL() {
+		
 		String url = pro.getProperty("baseUrl");
 		return url;
+	
+	}
+
+	public String getApplicationURLIn() {
+		
+		String urlIn = pro.getProperty("baseUrlIn");
+		return urlIn;
+	
 	}
 
 	public String getUserId() {
+		
 		String uId = pro.getProperty("userId");
 		return uId;
+	
 	}
 
 	public String getPassword() {
+		
 		String pswd = pro.getProperty("password");
 		return pswd;
+	
 	}
 
 }

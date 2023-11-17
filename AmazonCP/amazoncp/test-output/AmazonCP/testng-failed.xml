@@ -4,13 +4,13 @@
   <test thread-count="5" name="EcommerceTest(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.amazon.testcases.TC_SearchTest">
+      <class name="com.amazon.testcases.TC_CartFunctionalityTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testSearchProduct"/>
+          <include name="testAddToCart"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.testcases.TC_SearchTest -->
+      </class> <!-- com.amazon.testcases.TC_CartFunctionalityTest -->
     </classes>
   </test> <!-- EcommerceTest(failed) -->
 </suite> <!-- Failed suite [AmazonCP] -->

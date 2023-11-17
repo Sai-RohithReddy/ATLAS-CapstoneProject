@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AmazonCP" class="hide-methods passed suite-AmazonCP"> (hide)</a> <!-- hide-methods passed suite-AmazonCP -->
+                      <a href="#" panel-name="suite-AmazonCP" class="show-methods passed suite-AmazonCP"> (show)</a> <!-- show-methods passed suite-AmazonCP -->
+                    </span>
+                    <div class="method-list-content passed suite-AmazonCP">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonCP" title="com.amazon.testcases.TC_CartFunctionalityTest" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AmazonCP -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -104,6 +118,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-AmazonCP" class="panel AmazonCP">
+          <div class="suite-AmazonCP-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amazon.testcases.TC_CartFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonCP-class-passed -->
         </div> <!-- panel AmazonCP -->
         <div panel-name="test-xml-AmazonCP" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -134,6 +163,17 @@
           &lt;exclude name=&quot;testSearchProduct&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.amazon.testcases.TC_SearchTest --&gt;
+      &lt;class name=&quot;com.amazon.testcases.TC_CartFunctionalityTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testAddToCart&quot;/&gt;
+          &lt;exclude name=&quot;testRemoveFromCart&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.amazon.testcases.TC_CartFunctionalityTest --&gt;
+      &lt;class name=&quot;com.amazon.testcases.TC_CheckOutTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;testCheckOut&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.amazon.testcases.TC_CheckOutTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- EcommerceTest --&gt;
 &lt;/suite&gt; &lt;!-- AmazonCP --&gt;
@@ -147,7 +187,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">EcommerceTest (3 classes)</span>
+                <span class="test-name">EcommerceTest (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,12 +213,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddToCart')
+data.setCell(0, 2, 'com.amazon.testcases.TC_CartFunctionalityTest')
+data.setCell(0, 3, 38637);
 window.suiteTableData['AmazonCP']= { tableData: data, tableDiv: 'times-div-AmazonCP'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-AmazonCP">
               </div> <!-- times-div-AmazonCP -->
             </div> <!-- times-div -->
@@ -193,24 +237,22 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-AmazonCP" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">5 ignored methods</span>
+            <span class="header-content">7 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.amazon.testcases.TC_RegisterTest</span>
+              <span class="ignored-class-name">com.amazon.testcases.TC_CartFunctionalityTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">testNewRegistrationWithMobileNumber</span>
-                <br/>
-                <span class="ignored-method-name">testNewRegistrationWithEmail</span>
+                <span class="ignored-method-name">testRemoveFromCart</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.amazon.testcases.TC_LoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">testLogin</span>
-                <br/>
                 <span class="ignored-method-name">testLoginDDT</span>
+                <br/>
+                <span class="ignored-method-name">testLogin</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -221,6 +263,22 @@ return data;
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazon.testcases.TC_CheckOutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testCheckOut</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazon.testcases.TC_RegisterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testNewRegistrationWithMobileNumber</span>
+                <br/>
+                <span class="ignored-method-name">testNewRegistrationWithEmail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-AmazonCP" class="panel">
@@ -228,6 +286,20 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazon.testcases.TC_CartFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">4987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43629 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

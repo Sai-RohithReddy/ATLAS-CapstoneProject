@@ -27,6 +27,7 @@ public class BaseClass {
 	ReadConfig readConfig = new ReadConfig();
 
 	public String baseUrl = readConfig.getApplicationURL();
+	public String baseUrlIn = readConfig.getApplicationURLIn();
 	public String userId = readConfig.getUserId();
 	public String password = readConfig.getPassword();
 	public static WebDriver driver;
@@ -70,12 +71,12 @@ public class BaseClass {
 		String generatedString = RandomStringUtils.randomAlphabetic(size);
 		return generatedString;
 	}
-	
+
 	public String randomNum(int size) {
 		String randomNumeric = RandomStringUtils.randomNumeric(size);
 		return randomNumeric;
 	}
-	
+
 	public void signIn() {
 		LoginPage lp = new LoginPage(driver);
 		lp.clickSignIn();
@@ -84,7 +85,7 @@ public class BaseClass {
 		lp.setPassword(password);
 		lp.submitSignIn();
 	}
-	
+
 	public void signOut() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
 		lp.SignOut();

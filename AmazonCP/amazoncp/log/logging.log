@@ -33,4 +33,82 @@
  2023-11-13 12:37:36 INFO  BaseClass:39 - KPvP8661 is entered for confirmation
  2023-11-13 12:37:41 INFO  BaseClass:45 - Registration with email Succeeded
  2023-11-13 18:29:08 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-14 11:09:31 INFO  BaseClass:41 - Search operation succeeded with product name: TV
+ 2023-11-14 11:09:44 INFO  BaseClass:41 - Search operation succeeded with product name: OVEN
+ 2023-11-14 11:09:55 INFO  BaseClass:41 - Search operation succeeded with product name: AC
+ 2023-11-14 12:10:12 INFO  BaseClass:41 - Search operation succeeded with product name: TV
+ 2023-11-14 12:10:27 INFO  BaseClass:41 - Search operation succeeded with product name: OVEN
+ 2023-11-14 12:10:41 INFO  BaseClass:41 - Search operation succeeded with product name: AC
+ 2023-11-14 12:38:34 INFO  BaseClass:42 - tv is currently unavailable!
+ 2023-11-14 12:39:25 INFO  BaseClass:42 - tv is currently unavailable!
+ 2023-11-14 12:39:39 INFO  BaseClass:40 - 2oven added to cart successfully
+ 2023-11-14 12:46:14 INFO  BaseClass:42 - tv is currently unavailable!
+ 2023-11-14 12:46:32 INFO  BaseClass:40 - 2oven added to cart successfully
+ 2023-11-14 12:54:20 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-14 12:54:34 INFO  BaseClass:45 - 2 oven added to cart successfully
+ 2023-11-14 12:54:42 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-14 12:56:16 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-14 12:56:29 INFO  BaseClass:45 - 2 oven added to cart successfully
+ 2023-11-14 12:56:38 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-14 12:58:04 INFO  BaseClass:45 - tv is currently unavailable!
+ 2023-11-14 12:58:19 INFO  BaseClass:43 - 2 oven added to cart successfully
+ 2023-11-14 12:59:31 INFO  BaseClass:45 - tv is currently unavailable!
+ 2023-11-14 12:59:45 INFO  BaseClass:43 - 2 oven added to cart successfully
+ 2023-11-14 13:00:03 INFO  BaseClass:45 - freezer is currently unavailable!
+ 2023-11-14 13:04:15 INFO  BaseClass:48 - tv is currently unavailable!
+ 2023-11-14 13:04:25 INFO  BaseClass:48 - oven is currently unavailable!
+ 2023-11-14 13:04:35 INFO  BaseClass:48 - freezer is currently unavailable!
+ 2023-11-14 13:05:48 INFO  BaseClass:48 - tv is currently unavailable!
+ 2023-11-14 13:06:00 INFO  BaseClass:44 - 2 oven added to cart successfully
+ 2023-11-14 13:06:11 INFO  BaseClass:48 - freezer is currently unavailable!
+ 2023-11-14 13:41:29 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-14 13:41:32 INFO  BaseClass:58 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-14 13:41:42 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-14 13:41:46 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-14 13:41:49 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-14 13:41:51 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-14 13:41:57 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-16 19:44:50 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-16 19:45:05 INFO  BaseClass:43 - 2 oven added to cart successfully
+ 2023-11-16 19:45:15 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-16 19:49:21 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-16 19:49:34 INFO  BaseClass:47 - oven is currently unavailable!
+ 2023-11-16 19:49:42 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-16 19:50:33 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-16 19:50:49 INFO  BaseClass:47 - oven is currently unavailable!
+ 2023-11-16 19:51:01 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-16 19:55:05 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-16 19:55:16 INFO  BaseClass:47 - oven is currently unavailable!
+ 2023-11-16 19:55:28 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-16 19:55:28 INFO  BaseClass:65 - There are not items in cart
+ 2023-11-16 19:57:03 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-16 19:57:15 INFO  BaseClass:47 - oven is currently unavailable!
+ 2023-11-16 19:57:25 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-16 19:57:25 INFO  BaseClass:65 - There are not items in cart
+ 2023-11-16 19:59:51 INFO  BaseClass:45 - tv is currently unavailable!
+ 2023-11-16 19:59:59 INFO  BaseClass:45 - freezer is currently unavailable!
+ 2023-11-16 20:00:08 INFO  BaseClass:45 - camera is currently unavailable!
+ 2023-11-16 20:00:08 INFO  BaseClass:63 - There are not items in cart
+ 2023-11-16 20:00:51 INFO  BaseClass:45 - tv is currently unavailable!
+ 2023-11-16 20:01:02 INFO  BaseClass:45 - freezer is currently unavailable!
+ 2023-11-16 20:01:13 INFO  BaseClass:45 - camera is currently unavailable!
+ 2023-11-16 20:07:26 INFO  BaseClass:45 - tv is currently unavailable!
+ 2023-11-16 20:07:35 INFO  BaseClass:45 - freezer is currently unavailable!
+ 2023-11-16 20:07:46 INFO  BaseClass:45 - camera is currently unavailable!
+ 2023-11-16 20:08:41 INFO  BaseClass:45 - tv is currently unavailable!
+ 2023-11-16 20:08:54 INFO  BaseClass:45 - oven is currently unavailable!
+ 2023-11-16 20:09:02 INFO  BaseClass:45 - freezer is currently unavailable!
+ 2023-11-16 20:09:02 INFO  BaseClass:63 - There are not items in cart
+ 2023-11-16 20:32:07 INFO  BaseClass:45 - tv is currently unavailable!
+ 2023-11-16 20:32:17 INFO  BaseClass:45 - oven is currently unavailable!
+ 2023-11-16 20:32:26 INFO  BaseClass:45 - freezer is currently unavailable!
+ 2023-11-16 20:32:26 INFO  BaseClass:63 - There are not items in cart
+ 2023-11-16 20:32:56 INFO  BaseClass:45 - tv is currently unavailable!
+ 2023-11-16 20:33:04 INFO  BaseClass:45 - oven is currently unavailable!
+ 2023-11-16 20:33:14 INFO  BaseClass:45 - freezer is currently unavailable!
+ 2023-11-16 20:33:14 INFO  BaseClass:63 - There are not items in cart
+ 2023-11-16 20:37:41 INFO  BaseClass:46 - tv is currently unavailable!
+ 2023-11-16 20:37:52 INFO  BaseClass:46 - oven is currently unavailable!
+ 2023-11-16 20:38:00 INFO  BaseClass:46 - freezer is currently unavailable!
+ 2023-11-16 20:38:09 INFO  BaseClass:46 - camera is currently unavailable!
  
