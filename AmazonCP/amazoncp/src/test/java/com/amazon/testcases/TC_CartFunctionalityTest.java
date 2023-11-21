@@ -4,9 +4,12 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.amazon.pageobject.ProductPage;
+import com.amazon.pageobject.SearchPage;
 
 public class TC_CartFunctionalityTest extends BaseClass{
 	
@@ -14,7 +17,6 @@ public class TC_CartFunctionalityTest extends BaseClass{
 		
 		Map<String, String> product = new HashMap<>();
 		
-		product.put("camera", "2");
 		product.put("oven", "2");
 		product.put("tv", "1");
 		product.put("freezer", "1");
@@ -23,10 +25,44 @@ public class TC_CartFunctionalityTest extends BaseClass{
 	}
 	
 	@Test
-	public void testAddToCart() throws IOException {
+	public void testAddToCart() throws IOException, InterruptedException {
 		
 		ProductPage pp = new ProductPage(driver);
 		Map<String, String> ol = orderList();
+		
+		for (Map.Entry<String, String> entry : ol.entrySet()) {
+			
+			String product = entry.getKey();
+			String count = entry.getValue();
+			
+			pp.searchProduct(product);
+			String parent = driver.getWindowHandle();
+			pp.clickSearch();
+			pp.clickFirstProduct();
+			
+			Thread.sleep(2000);
+			
+			for (String child : driver.getWindowHandles()) {
+				driver.switchTo().window(child);
+			}
+			
+			pp.setQuantity(count);
+			Thread.sleep(2000);
+			pp.clickAddToCart();
+			logger.info(count + " " + product + " added to cart successfully");
+			
+			driver.close();
+			driver.switchTo().window(parent);
+		}
+	}
+	
+	@Test()
+	public void testAddToCartUs() throws IOException {
+		
+		ProductPage pp = new ProductPage(driver);
+		Map<String, String> ol = orderList();
+		
+		driver.get(baseUrlUs);
 		
 		for (Map.Entry<String, String> entry : ol.entrySet()) {
 			
@@ -69,12 +105,24 @@ public class TC_CartFunctionalityTest extends BaseClass{
  	
 	public boolean isProductAvailable() {
 		
-		boolean inStock = !driver.getPageSource().contains("Temporarily out of stock.");
+		boolean notOutOfStock = !driver.getPageSource().contains("Temporarily out of stock.");
 		boolean available =  !driver.getPageSource().contains("Currently unavailable.");
 		boolean shipping = !driver.getPageSource().contains("This item cannot be shipped to your selected delivery location. Please choose a different delivery location.");
+		boolean inStock = driver.getPageSource().contains("In Stock");
 		
-		boolean isAvailable = inStock && available && shipping;
+		boolean isAvailable = inStock && available && shipping && notOutOfStock;
 		
 		return isAvailable;
+	}
+	
+	public void setTempZip() throws InterruptedException {
+		SearchPage sp = new SearchPage(driver);
+		
+		sp.clickDeliveryTo();
+		Thread.sleep(1000);
+		sp.setZip(tempZip);
+		sp.clickSubmitZip();
+		Thread.sleep(1000);
+		sp.submitDeliveryTo();
 	}
 }

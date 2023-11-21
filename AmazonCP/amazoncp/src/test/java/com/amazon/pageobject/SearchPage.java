@@ -30,6 +30,18 @@ public class SearchPage {
 	@FindBy(xpath = "//a[@class='s-pagination-item s-pagination-previous s-pagination-button s-pagination-separator']")
 	WebElement previousPage;
 	
+	@FindBy(id = "glow-ingress-block")
+	WebElement deliverTo;
+	
+	@FindBy(id = "GLUXZipUpdateInput")
+	WebElement deliveryToText;
+	
+	@FindBy(xpath = "//div[@class='a-column a-span4 a-span-last']/span/span")
+	WebElement submitZip;
+	
+	@FindBy(xpath = "//div[@class='a-popover-wrapper']/div[2]/span/span/input")
+	WebElement submitDeliveryTo;
+	
 	public void searchProduct(String product) {
 		Actions action = new Actions(lDriver);
 		searchBox.clear();
@@ -51,4 +63,21 @@ public class SearchPage {
 	public void clickPreviousPage() {
 		previousPage.click();
 	}
+	
+	public void clickDeliveryTo() {
+		deliverTo.click();
+	}
+	
+	public void setZip(String zip) {
+		deliveryToText.sendKeys(zip);
+	}
+	
+	public void clickSubmitZip() {
+		submitZip.click();
+	}
+	
+	public void submitDeliveryTo() {
+		submitDeliveryTo.click();
+	}
+	
 }

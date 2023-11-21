@@ -20,16 +20,19 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 import com.amazon.pageobject.LoginPage;
+import com.amazon.pageobject.SearchPage;
 import com.amazon.utilities.ReadConfig;
 
 public class BaseClass {
 
 	ReadConfig readConfig = new ReadConfig();
 
-	public String baseUrl = readConfig.getApplicationURL();
+	public String baseUrlUs = readConfig.getApplicationURLUs();
 	public String baseUrlIn = readConfig.getApplicationURLIn();
 	public String userId = readConfig.getUserId();
 	public String password = readConfig.getPassword();
+	public String tempZip = readConfig.getZip();
+	
 	public static WebDriver driver;
 	public static Logger logger;
 
@@ -49,12 +52,13 @@ public class BaseClass {
 		}
 
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get(baseUrl);
+		driver.get(baseUrlIn);
+		driver.manage().window().maximize();
 	}
 
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+//		driver.quit();
 	}
 
 	public void captureScreen(WebDriver driver, String tName) throws IOException {

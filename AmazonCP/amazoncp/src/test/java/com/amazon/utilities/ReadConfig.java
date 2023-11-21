@@ -21,9 +21,9 @@ public class ReadConfig {
 		}
 	}
 
-	public String getApplicationURL() {
+	public String getApplicationURLUs() {
 		
-		String url = pro.getProperty("baseUrl");
+		String url = pro.getProperty("baseUrlUs");
 		return url;
 	
 	}
@@ -46,6 +46,13 @@ public class ReadConfig {
 		
 		String pswd = pro.getProperty("password");
 		return pswd;
+	
+	}
+	
+	public String getZip() {
+		
+		String zip = pro.getProperty("zip");
+		return zip;
 	
 	}
 

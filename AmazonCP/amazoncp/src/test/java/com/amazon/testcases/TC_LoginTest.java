@@ -14,7 +14,7 @@ public class TC_LoginTest extends BaseClass {
 
 	@BeforeMethod
 	public void invokeBaseURL() {
-		driver.get(baseUrl);
+		driver.get(baseUrlUs);
 	}
 
 	@Test

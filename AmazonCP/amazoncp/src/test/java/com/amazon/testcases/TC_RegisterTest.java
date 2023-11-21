@@ -17,7 +17,7 @@ public class TC_RegisterTest extends BaseClass {
 	
 	@BeforeMethod
 	public void invokeBaseURL() {
-		driver.get(baseUrl);
+		driver.get(baseUrlUs);
 	}
 
 	@Test(enabled = true)

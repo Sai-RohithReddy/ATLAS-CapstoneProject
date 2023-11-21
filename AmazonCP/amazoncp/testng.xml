@@ -23,13 +23,14 @@
 			</class>
 			<class name="com.amazon.testcases.TC_CartFunctionalityTest">
 				<methods>
-					<include name="testAddToCart" />
+					<exclude name="testAddToCart" />
+					<exclude name="testAddToCartUs" />
 					<exclude name="testRemoveFromCart" />
 				</methods>
 			</class>
 			<class name="com.amazon.testcases.TC_CheckOutTest">
 				<methods>
-					<exclude name="testCheckOut" />
+					<include name="testCheckOut" />
 				</methods>
 			</class>
 		</classes>

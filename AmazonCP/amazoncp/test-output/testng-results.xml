@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-16T20:37:25 IST" name="AmazonCP" finished-at="2023-11-16T20:38:09 IST" duration-ms="44019">
+  <suite started-at="2023-11-21T19:27:05 IST" name="AmazonCP" finished-at="2023-11-21T19:29:54 IST" duration-ms="168131">
     <groups>
     </groups>
-    <test started-at="2023-11-16T20:37:25 IST" name="EcommerceTest" finished-at="2023-11-16T20:38:09 IST" duration-ms="44019">
-      <class name="com.amazon.testcases.TC_CartFunctionalityTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazon.testcases.TC_CartFunctionalityTest@645aa696]" started-at="2023-11-16T20:37:25 IST" name="setup" finished-at="2023-11-16T20:37:30 IST" duration-ms="4973" status="PASS">
+    <test started-at="2023-11-21T19:27:05 IST" name="EcommerceTest" finished-at="2023-11-21T19:29:54 IST" duration-ms="168131">
+      <class name="com.amazon.testcases.TC_CheckOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.amazon.testcases.TC_CheckOutTest@16eb3ea3]" started-at="2023-11-21T19:27:06 IST" name="setup" finished-at="2023-11-21T19:27:53 IST" duration-ms="47571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddToCart()[pri:0, instance:com.amazon.testcases.TC_CartFunctionalityTest@645aa696]" started-at="2023-11-16T20:37:30 IST" name="testAddToCart" finished-at="2023-11-16T20:38:09 IST" duration-ms="38637" status="PASS">
+        <test-method signature="testCheckOut()[pri:0, instance:com.amazon.testcases.TC_CheckOutTest@16eb3ea3]" started-at="2023-11-21T19:27:54 IST" name="testCheckOut" finished-at="2023-11-21T19:29:53 IST" duration-ms="119928" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.TC_CartFunctionalityTest@645aa696]" started-at="2023-11-16T20:38:09 IST" name="tearDown" finished-at="2023-11-16T20:38:09 IST" duration-ms="350" status="PASS">
+        </test-method> <!-- testCheckOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.TC_CheckOutTest@16eb3ea3]" started-at="2023-11-21T19:29:54 IST" name="tearDown" finished-at="2023-11-21T19:29:54 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.amazon.testcases.TC_CartFunctionalityTest -->
+      </class> <!-- com.amazon.testcases.TC_CheckOutTest -->
     </test> <!-- EcommerceTest -->
   </suite> <!-- AmazonCP -->
 </testng-results>

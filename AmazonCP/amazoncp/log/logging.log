@@ -111,4 +111,161 @@
  2023-11-16 20:37:52 INFO  BaseClass:46 - oven is currently unavailable!
  2023-11-16 20:38:00 INFO  BaseClass:46 - freezer is currently unavailable!
  2023-11-16 20:38:09 INFO  BaseClass:46 - camera is currently unavailable!
+ 2023-11-18 10:16:23 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-18 10:17:01 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-18 10:17:05 INFO  BaseClass:58 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-18 10:17:13 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-18 10:17:17 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-18 10:17:22 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-18 10:17:24 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-18 10:18:22 INFO  BaseClass:41 - Search operation succeeded with product name: TV
+ 2023-11-18 10:18:39 INFO  BaseClass:41 - Search operation succeeded with product name: OVEN
+ 2023-11-18 10:19:11 INFO  BaseClass:41 - Search operation succeeded with product name: AC
+ 2023-11-18 10:30:29 INFO  BaseClass:27 - URL is opened
+ 2023-11-18 10:30:31 INFO  BaseClass:30 - Registration page is opened
+ 2023-11-18 10:30:33 INFO  BaseClass:33 - mbKcUvdn is entered
+ 2023-11-18 10:30:33 INFO  BaseClass:35 - mbKcUvdn@gmail.com is entered
+ 2023-11-18 10:30:33 INFO  BaseClass:37 - hhfu0850 is entered
+ 2023-11-18 10:30:33 INFO  BaseClass:39 - hhfu0850 is entered for confirmation
+ 2023-11-18 10:30:38 INFO  BaseClass:45 - Registration with email Succeeded
+ 2023-11-18 10:31:03 INFO  BaseClass:27 - URL is opened
+ 2023-11-18 10:31:04 INFO  BaseClass:30 - Registration page is opened
+ 2023-11-18 10:31:06 INFO  BaseClass:33 - JUxAvaRG is entered
+ 2023-11-18 10:31:06 INFO  BaseClass:35 - JUxAvaRG@gmail.com is entered
+ 2023-11-18 10:31:07 INFO  BaseClass:37 - oNvn1407 is entered
+ 2023-11-18 10:31:07 INFO  BaseClass:39 - oNvn1407 is entered for confirmation
+ 2023-11-18 10:31:12 INFO  BaseClass:45 - Registration with email Succeeded
+ 2023-11-18 10:31:13 INFO  BaseClass:58 - URL is opened
+ 2023-11-18 10:31:15 INFO  BaseClass:61 - Registration page is opened
+ 2023-11-18 10:31:16 INFO  BaseClass:64 - JUxAvaRG is entered
+ 2023-11-18 10:31:16 INFO  BaseClass:66 - 9896140694 is entered
+ 2023-11-18 10:31:17 INFO  BaseClass:68 - oNvn1407 is entered
+ 2023-11-18 10:31:17 INFO  BaseClass:70 - oNvn1407 is entered for confirmation
+ 2023-11-18 10:31:22 INFO  BaseClass:76 - Registration with email Succeeded
+ 2023-11-18 10:33:10 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-18 10:33:15 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-18 10:33:20 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-18 10:33:22 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-18 10:33:30 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-18 10:34:10 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-18 10:34:14 INFO  BaseClass:58 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-18 10:34:24 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-18 10:34:28 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-18 10:34:32 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-18 10:34:35 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-18 10:35:27 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-18 10:36:52 INFO  BaseClass:41 - Search operation succeeded with product name: TV
+ 2023-11-18 10:37:32 INFO  BaseClass:41 - Search operation succeeded with product name: OVEN
+ 2023-11-18 10:37:45 INFO  BaseClass:41 - Search operation succeeded with product name: AC
+ 2023-11-18 10:40:09 INFO  BaseClass:46 - tv is currently unavailable!
+ 2023-11-18 10:40:18 INFO  BaseClass:46 - oven is currently unavailable!
+ 2023-11-18 10:40:29 INFO  BaseClass:46 - freezer is currently unavailable!
+ 2023-11-18 10:40:38 INFO  BaseClass:46 - camera is currently unavailable!
+ 2023-11-18 10:44:03 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-18 10:44:14 INFO  BaseClass:47 - oven is currently unavailable!
+ 2023-11-18 10:44:22 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-18 10:44:31 INFO  BaseClass:47 - camera is currently unavailable!
+ 2023-11-18 10:45:18 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-18 10:45:26 INFO  BaseClass:47 - oven is currently unavailable!
+ 2023-11-18 10:45:36 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-18 10:45:45 INFO  BaseClass:47 - camera is currently unavailable!
+ 2023-11-18 10:45:45 INFO  BaseClass:65 - There are not items in cart
+ 2023-11-18 11:58:39 INFO  BaseClass:47 - tv is currently unavailable!
+ 2023-11-18 11:58:50 INFO  BaseClass:47 - oven is currently unavailable!
+ 2023-11-18 11:59:00 INFO  BaseClass:47 - freezer is currently unavailable!
+ 2023-11-18 11:59:10 INFO  BaseClass:47 - camera is currently unavailable!
+ 2023-11-18 17:50:02 INFO  BaseClass:42 - Search operation succeeded with product name: TV
+ 2023-11-18 17:50:11 INFO  BaseClass:42 - Search operation succeeded with product name: OVEN
+ 2023-11-18 17:50:33 INFO  BaseClass:42 - Search operation succeeded with product name: AC
+ 2023-11-18 17:58:21 INFO  BaseClass:49 - camera is currently unavailable!
+ 2023-11-18 18:00:27 INFO  BaseClass:53 - camera is currently unavailable!
+ 2023-11-18 18:01:49 INFO  BaseClass:59 - camera is currently unavailable!
+ 2023-11-18 18:03:48 INFO  BaseClass:60 - camera is currently unavailable!
+ 2023-11-18 18:11:51 INFO  BaseClass:59 - tv is currently unavailable!
+ 2023-11-18 18:13:33 INFO  BaseClass:50 - tv is currently unavailable!
+ 2023-11-18 18:13:42 INFO  BaseClass:50 - oven is currently unavailable!
+ 2023-11-18 18:13:51 INFO  BaseClass:46 - 1 freezer added to cart successfully
+ 2023-11-18 18:13:58 INFO  BaseClass:50 - camera is currently unavailable!
+ 2023-11-18 18:15:01 INFO  BaseClass:50 - tv is currently unavailable!
+ 2023-11-18 18:15:11 INFO  BaseClass:50 - oven is currently unavailable!
+ 2023-11-18 18:15:20 INFO  BaseClass:50 - freezer is currently unavailable!
+ 2023-11-18 18:15:27 INFO  BaseClass:50 - camera is currently unavailable!
+ 2023-11-18 18:15:27 INFO  BaseClass:68 - There are not items in cart
+ 2023-11-21 11:25:02 INFO  BaseClass:50 - tv is currently unavailable!
+ 2023-11-21 11:25:12 INFO  BaseClass:50 - oven is currently unavailable!
+ 2023-11-21 11:25:23 INFO  BaseClass:50 - freezer is currently unavailable!
+ 2023-11-21 11:25:37 INFO  BaseClass:50 - camera is currently unavailable!
+ 2023-11-21 11:25:37 INFO  BaseClass:68 - There are not items in cart
+ 2023-11-21 11:45:55 INFO  BaseClass:27 - URL is opened
+ 2023-11-21 11:45:59 INFO  BaseClass:30 - Registration page is opened
+ 2023-11-21 11:46:01 INFO  BaseClass:33 - xmulmDaP is entered
+ 2023-11-21 11:46:01 INFO  BaseClass:35 - xmulmDaP@gmail.com is entered
+ 2023-11-21 11:46:01 INFO  BaseClass:37 - oQSn8669 is entered
+ 2023-11-21 11:46:01 INFO  BaseClass:39 - oQSn8669 is entered for confirmation
+ 2023-11-21 11:46:06 INFO  BaseClass:45 - Registration with email Succeeded
+ 2023-11-21 11:46:08 INFO  BaseClass:58 - URL is opened
+ 2023-11-21 11:46:09 INFO  BaseClass:61 - Registration page is opened
+ 2023-11-21 11:46:10 INFO  BaseClass:64 - xmulmDaP is entered
+ 2023-11-21 11:46:10 INFO  BaseClass:66 - 5636021197 is entered
+ 2023-11-21 11:46:11 INFO  BaseClass:68 - oQSn8669 is entered
+ 2023-11-21 11:46:11 INFO  BaseClass:70 - oQSn8669 is entered for confirmation
+ 2023-11-21 11:46:16 INFO  BaseClass:76 - Registration with email Succeeded
+ 2023-11-21 11:47:30 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-21 11:47:34 INFO  BaseClass:58 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-21 11:47:44 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-21 11:47:48 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-21 11:47:53 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-21 11:48:10 INFO  BaseClass:55 - Puzzle Check Enabled
+ 2023-11-21 11:48:10 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-21 11:48:19 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-21 11:49:28 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-21 11:49:32 INFO  BaseClass:58 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-21 11:49:42 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-21 11:49:46 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-21 11:49:50 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-21 11:50:07 INFO  BaseClass:55 - Puzzle Check Enabled
+ 2023-11-21 11:50:07 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-21 11:50:16 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-21 11:50:58 INFO  BaseClass:44 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-21 11:51:02 INFO  BaseClass:53 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-21 11:52:02 INFO  BaseClass:25 - testLogin executed successfully
+ 2023-11-21 11:52:38 INFO  BaseClass:44 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-21 11:52:43 INFO  BaseClass:53 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-21 11:53:48 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-21 11:53:52 INFO  BaseClass:58 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-21 11:54:02 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-21 11:54:06 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-21 11:54:10 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-21 11:54:28 INFO  BaseClass:55 - Puzzle Check Enabled
+ 2023-11-21 11:54:28 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-21 11:55:04 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-21 11:56:37 INFO  BaseClass:42 - Search operation succeeded with product name: TV
+ 2023-11-21 11:56:54 INFO  BaseClass:42 - Search operation succeeded with product name: OVEN
+ 2023-11-21 11:57:02 INFO  BaseClass:42 - Search operation succeeded with product name: AC
+ 2023-11-21 12:07:24 INFO  BaseClass:42 - Search operation succeeded with product name: TV
+ 2023-11-21 12:12:03 INFO  BaseClass:43 - Search operation succeeded with product name: TV
+ 2023-11-21 12:13:29 INFO  BaseClass:43 - Search operation succeeded with product name: TV
+ 2023-11-21 12:14:33 INFO  BaseClass:42 - Search operation succeeded with product name: TV
+ 2023-11-21 12:14:50 INFO  BaseClass:42 - Search operation succeeded with product name: OVEN
+ 2023-11-21 12:15:02 INFO  BaseClass:42 - Search operation succeeded with product name: AC
+ 2023-11-21 12:16:38 INFO  BaseClass:43 - Search operation succeeded with product name: TV
+ 2023-11-21 12:16:46 INFO  BaseClass:43 - Search operation succeeded with product name: OVEN
+ 2023-11-21 12:16:53 INFO  BaseClass:43 - Search operation succeeded with product name: AC
+ 2023-11-21 12:21:31 INFO  BaseClass:44 - Search operation succeeded with product name: TV
+ 2023-11-21 12:23:21 INFO  BaseClass:44 - Search operation succeeded with product name: TV
+ 2023-11-21 12:24:18 INFO  BaseClass:44 - Search operation succeeded with product name: TV
+ 2023-11-21 12:24:29 INFO  BaseClass:44 - Search operation succeeded with product name: OVEN
+ 2023-11-21 12:24:41 INFO  BaseClass:44 - Search operation succeeded with product name: AC
+ 2023-11-21 12:26:55 INFO  BaseClass:44 - Search operation succeeded with product name: TV
+ 2023-11-21 12:27:05 INFO  BaseClass:44 - Search operation succeeded with product name: OVEN
+ 2023-11-21 12:27:13 INFO  BaseClass:44 - Search operation succeeded with product name: AC
+ 2023-11-21 12:38:12 INFO  BaseClass:50 - tv is currently unavailable!
+ 2023-11-21 12:38:18 INFO  BaseClass:50 - oven is currently unavailable!
+ 2023-11-21 12:38:24 INFO  BaseClass:50 - freezer is currently unavailable!
+ 2023-11-21 12:38:30 INFO  BaseClass:50 - camera is currently unavailable!
+ 2023-11-21 12:44:48 INFO  BaseClass:75 - camera is currently unavailable!
+ 2023-11-21 13:17:43 INFO  BaseClass:52 - 1 tv added to cart successfully
+ 2023-11-21 13:17:55 INFO  BaseClass:52 - 2 oven added to cart successfully
+ 2023-11-21 13:18:08 INFO  BaseClass:52 - 1 freezer added to cart successfully
+ 2023-11-21 13:18:08 INFO  BaseClass:100 - There are not items in cart
  
