@@ -17,22 +17,22 @@ public class ProductPage extends SearchPage{
 	}
 
 	@FindBy(xpath = "//select[@id='quantity']")
-	WebElement quantity;
+	private WebElement quantity;
 	
 	@FindBy(id = "add-to-cart-button")
-	WebElement addToCart;
+	private WebElement addToCart;
 	
 	@FindBy(id = "buy-now-button")
-	WebElement buyNow;
+	private WebElement buyNow;
 	
 	@FindBy(id = "nav-cart")
-	WebElement cartButton;
+	private WebElement cartButton;
 	
 	@FindBy(id = "nav-cart-count")
-	WebElement cartCount;
+	private WebElement cartCount;
 	
 	@FindBy(xpath = "//input[@value='Delete']")
-	WebElement clearCartButton;
+	private WebElement clearCartButton;
 	
 	public void setQuantity(String qty) {
 		Select dropDown = new Select(quantity);

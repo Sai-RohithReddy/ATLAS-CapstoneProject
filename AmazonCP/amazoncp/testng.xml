@@ -30,7 +30,14 @@
 			</class>
 			<class name="com.amazon.testcases.TC_CheckOutTest">
 				<methods>
-					<include name="testCheckOut" />
+					<exclude name="testCheckOut" />
+				</methods>
+			</class>
+			<class name="com.amazon.testcases.TC_DataBaseTest">
+				<methods>
+					<include name="testMaxPriceQuery"/>
+					<include name="testMostSoldOutProductQuery"/>
+					<include name="testDisplayOrderList"/>
 				</methods>
 			</class>
 		</classes>

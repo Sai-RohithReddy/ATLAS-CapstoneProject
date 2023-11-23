@@ -22,38 +22,45 @@ public class ReadConfig {
 	}
 
 	public String getApplicationURLUs() {
-		
+
 		String url = pro.getProperty("baseUrlUs");
 		return url;
-	
+
 	}
 
 	public String getApplicationURLIn() {
-		
 		String urlIn = pro.getProperty("baseUrlIn");
 		return urlIn;
-	
 	}
 
 	public String getUserId() {
-		
 		String uId = pro.getProperty("userId");
 		return uId;
-	
 	}
 
 	public String getPassword() {
-		
 		String pswd = pro.getProperty("password");
 		return pswd;
-	
 	}
-	
+
 	public String getZip() {
-		
 		String zip = pro.getProperty("zip");
 		return zip;
-	
+	}
+
+	public String getMySqlUser() {
+		String dbUser = pro.getProperty("mysqluser");
+		return dbUser;
+	}
+
+	public String getMySqlPassword() {
+		String dbPassword = pro.getProperty("mysqlpassword");
+		return dbPassword;
+	}
+
+	public String getDatabaseName() {
+		String dbName = pro.getProperty("mysqldbname");
+		return dbName;
 	}
 
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.testcases.TC_CheckOutTest">
+      <class name="com.amazon.testcases.DataBaseTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="testCheckOut"/>
+          <include name="testMaxPriceQuery"/>
         </methods>
-      </class> <!-- com.amazon.testcases.TC_CheckOutTest -->
+      </class> <!-- com.amazon.testcases.DataBaseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

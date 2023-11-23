@@ -16,28 +16,28 @@ public class LoginPage {
 	}
 
 	@FindBy(id = "nav-link-accountList")
-	WebElement signIn;
+	private WebElement signIn;
 
 	@FindBy(id = "ap_email")
-	WebElement emailText;
+	private WebElement emailText;
 
 	@FindBy(id = "continue")
-	WebElement cntnu;
+	private WebElement cntnu;
 
 	@FindBy(id = "ap_password")
-	WebElement pswd;
+	private WebElement pswd;
 
 	@FindBy(id = "signInSubmit")
-	WebElement submit;
+	private WebElement submit;
 
 	@FindBy(xpath = "//a[@id='nav-link-accountList']/div/span")
-	WebElement confText;
+	private WebElement confText;
 	
 	@FindBy(id = "nav-item-signout")
-	WebElement signOutText;
+	private WebElement signOutText;
 	
 //	@FindBy(xpath = "//div[@class='a-alert-content']/ul/li/span")
-//	WebElement problemText;
+//	private WebElement problemText;
 
 	public void clickSignIn() {
 		signIn.click();

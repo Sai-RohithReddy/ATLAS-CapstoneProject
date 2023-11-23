@@ -268,4 +268,114 @@
  2023-11-21 13:17:55 INFO  BaseClass:52 - 2 oven added to cart successfully
  2023-11-21 13:18:08 INFO  BaseClass:52 - 1 freezer added to cart successfully
  2023-11-21 13:18:08 INFO  BaseClass:100 - There are not items in cart
+ 2023-11-22 12:38:31 INFO  BaseClass:53 - New Address Entered Successfully
+ 2023-11-22 12:41:50 INFO  BaseClass:53 - New Address Entered Successfully
+ 2023-11-22 12:44:52 INFO  BaseClass:53 - New Address Entered Successfully
+ 2023-11-22 12:53:22 INFO  BaseClass:53 - New Address Entered Successfully
+ 2023-11-22 12:55:56 INFO  BaseClass:53 - New Address Entered Successfully
+ 2023-11-22 13:17:55 INFO  BaseClass:58 - New Address Entered Successfully
+ 2023-11-22 13:20:48 INFO  BaseClass:58 - New Address Entered Successfully
+ 2023-11-22 13:25:42 INFO  BaseClass:58 - New Address Entered Successfully
+ 2023-11-22 13:27:35 INFO  BaseClass:58 - New Address Entered Successfully
+ 2023-11-22 13:32:24 INFO  BaseClass:58 - New Address Entered Successfully
+ 2023-11-22 13:34:52 INFO  BaseClass:58 - New Address Entered Successfully
+ 2023-11-22 13:42:50 INFO  BaseClass:58 - New Address Entered Successfully
+ 2023-11-22 13:45:13 INFO  BaseClass:58 - New Address Entered Successfully
+ 2023-11-23 10:23:49 WARN  BaseClass:44 - Quantity option is not available
+ 2023-11-23 10:24:05 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 10:29:06 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 10:33:59 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 10:41:46 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 10:48:15 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 10:53:05 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 10:54:47 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 10:56:04 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 10:58:29 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 11:03:37 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 11:05:27 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 11:07:52 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 11:15:55 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 11:16:05 INFO  BaseClass:82 - Payment Details Entered Successfully
+ 2023-11-23 11:21:05 INFO  BaseClass:63 - New Address Entered Successfully
+ 2023-11-23 11:21:15 INFO  BaseClass:82 - Payment Details Entered Successfully
+ 2023-11-23 11:27:01 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 11:27:11 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 11:28:51 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 11:29:01 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 11:42:31 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 11:42:41 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 11:42:50 INFO  BaseClass:85 - Order Placed Successfully
+ 2023-11-23 11:47:36 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 11:47:46 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 11:49:05 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 11:49:15 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 11:49:25 INFO  BaseClass:85 - Product name: oven Quantity: 1 Placed Successfully
+ 2023-11-23 11:55:16 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 11:56:34 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 11:57:59 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 12:01:22 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 12:04:33 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 12:04:48 INFO  BaseClass:72 - Delivery Option Selected
+ 2023-11-23 12:04:53 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 12:06:47 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 12:07:01 INFO  BaseClass:72 - Delivery Option Selected
+ 2023-11-23 12:07:07 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 12:08:26 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 12:08:40 INFO  BaseClass:72 - Delivery Option Selected
+ 2023-11-23 12:08:46 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 12:09:01 INFO  BaseClass:85 - Product name: freezer Quantity: 1 Placed Successfully
+ 2023-11-23 12:10:19 INFO  BaseClass:62 - New Address Entered Successfully
+ 2023-11-23 12:10:39 INFO  BaseClass:81 - Payment Details Entered Successfully
+ 2023-11-23 12:10:54 INFO  BaseClass:85 - Product name: oven Quantity: 1 Placed Successfully
+ 2023-11-23 12:16:07 INFO  BaseClass:67 - New Address Entered Successfully
+ 2023-11-23 12:16:27 INFO  BaseClass:86 - Payment Details Entered Successfully
+ 2023-11-23 12:16:42 INFO  BaseClass:90 - Product name: oven Quantity: 1 Placed Successfully
+ 2023-11-23 12:17:48 INFO  BaseClass:67 - New Address Entered Successfully
+ 2023-11-23 12:18:08 INFO  BaseClass:86 - Payment Details Entered Successfully
+ 2023-11-23 12:18:23 INFO  BaseClass:90 - Product name: ball Quantity: 2 Placed Successfully
+ 2023-11-23 13:11:15 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-23 13:12:38 INFO  BaseClass:67 - New Address Entered Successfully
+ 2023-11-23 13:12:58 INFO  BaseClass:86 - Payment Details Entered Successfully
+ 2023-11-23 13:13:13 INFO  BaseClass:90 - Product name: ball Quantity: 2 Placed Successfully
+ 2023-11-23 14:20:29 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-23 14:20:34 INFO  BaseClass:58 - testLoginDDT passed with id and password: rohithamazoncp@gmail.com, amazonCP
+ 2023-11-23 14:20:43 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-23 14:20:47 WARN  BaseClass:69 - testLoginDDT failed because of invalid id: rohithamazonp@gmail.com
+ 2023-11-23 14:20:51 INFO  BaseClass:49 - Entered valid emailrohithamazoncp@gmail.com
+ 2023-11-23 14:20:53 WARN  BaseClass:63 - testLoginDDT failed because of invalid password: amazoncP
+ 2023-11-23 17:21:15 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-23 17:23:36 INFO  BaseClass:30 - testLogin executed successfully
+ 2023-11-23 17:24:53 INFO  BaseClass:67 - New Address Entered Successfully
+ 2023-11-23 17:25:14 INFO  BaseClass:86 - Payment Details Entered Successfully
+ 2023-11-23 17:25:29 INFO  BaseClass:90 - Product name: ball Quantity: 2 Placed Successfully
+ 2023-11-23 20:10:22 INFO  BaseClass:71 - New Address Entered Successfully
+ 2023-11-23 20:10:42 INFO  BaseClass:90 - Payment Details Entered Successfully
+ 2023-11-23 20:10:57 INFO  BaseClass:94 - Product name: foot ball Quantity: 2 Placed Successfully
+ 2023-11-23 20:10:58 INFO  BaseClass:97 - Data Base updated with Product name: foot ball Quantity: 2
+ 2023-11-23 20:23:12 INFO  BaseClass:71 - New Address Entered Successfully
+ 2023-11-23 20:23:32 INFO  BaseClass:90 - Payment Details Entered Successfully
+ 2023-11-23 20:23:47 INFO  BaseClass:94 - Product name: foot ball Quantity: 1 Placed Successfully
+ 2023-11-23 20:25:01 INFO  BaseClass:71 - New Address Entered Successfully
+ 2023-11-23 20:25:21 INFO  BaseClass:90 - Payment Details Entered Successfully
+ 2023-11-23 20:25:36 INFO  BaseClass:94 - Product name: foot ball Quantity: 1 Placed Successfully
+ 2023-11-23 20:27:28 INFO  BaseClass:71 - New Address Entered Successfully
+ 2023-11-23 20:27:48 INFO  BaseClass:90 - Payment Details Entered Successfully
+ 2023-11-23 20:28:03 INFO  BaseClass:94 - Product name: foot ball Quantity: 1 Placed Successfully
+ 2023-11-23 20:28:04 INFO  BaseClass:97 - Data Base updated with Product name: foot ball, Quantity: 1
+ 2023-11-23 20:31:04 INFO  BaseClass:71 - New Address Entered Successfully
+ 2023-11-23 20:31:24 INFO  BaseClass:90 - Payment Details Entered Successfully
+ 2023-11-23 20:31:39 INFO  BaseClass:94 - Product name: foot ball Quantity: 5 Placed Successfully
+ 2023-11-23 20:31:40 INFO  BaseClass:97 - Order table is updated with Product name: foot ball, Quantity: 5
+ 2023-11-23 20:34:57 INFO  BaseClass:71 - New Address Entered Successfully
+ 2023-11-23 20:35:17 INFO  BaseClass:90 - Payment Details Entered Successfully
+ 2023-11-23 20:35:32 INFO  BaseClass:94 - Product name: football Quantity: 2 Placed Successfully
+ 2023-11-23 20:35:33 INFO  BaseClass:97 - Order table is updated with Product name: football, Quantity: 2
+ 2023-11-23 20:46:13 INFO  BaseClass:71 - New Address Entered Successfully
+ 2023-11-23 20:46:33 INFO  BaseClass:90 - Payment Details Entered Successfully
+ 2023-11-23 20:46:48 INFO  BaseClass:94 - Product name: football Quantity: 1 Placed Successfully
+ 2023-11-23 20:46:48 INFO  BaseClass:97 - Order table is updated with Product name: football, Quantity: 1
+ 2023-11-23 20:49:28 INFO  BaseClass:71 - New Address Entered Successfully
+ 2023-11-23 20:49:48 INFO  BaseClass:90 - Payment Details Entered Successfully
+ 2023-11-23 20:50:03 INFO  BaseClass:94 - Product name: football Quantity: 5 Placed Successfully
+ 2023-11-23 20:50:04 INFO  BaseClass:97 - Order table is updated with Product name: football, Quantity: 5
  

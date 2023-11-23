@@ -25,13 +25,16 @@ import com.amazon.utilities.ReadConfig;
 
 public class BaseClass {
 
-	ReadConfig readConfig = new ReadConfig();
+	static ReadConfig readConfig = new ReadConfig();
 
-	public String baseUrlUs = readConfig.getApplicationURLUs();
-	public String baseUrlIn = readConfig.getApplicationURLIn();
-	public String userId = readConfig.getUserId();
-	public String password = readConfig.getPassword();
-	public String tempZip = readConfig.getZip();
+	public static String baseUrlUs = readConfig.getApplicationURLUs();
+	public static String baseUrlIn = readConfig.getApplicationURLIn();
+	public static String userId = readConfig.getUserId();
+	public static String password = readConfig.getPassword();
+	public static String tempZip = readConfig.getZip();
+	public static String mySqlUser = readConfig.getMySqlUser();
+	public static String mySqlPassword = readConfig.getMySqlPassword();
+	public static String mySqlDB = readConfig.getDatabaseName();
 	
 	public static WebDriver driver;
 	public static Logger logger;
@@ -58,7 +61,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void tearDown() {
-//		driver.quit();
+		driver.quit();
 	}
 
 	public void captureScreen(WebDriver driver, String tName) throws IOException {

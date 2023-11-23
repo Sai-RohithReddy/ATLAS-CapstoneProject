@@ -16,31 +16,34 @@ public class SearchPage {
 	}
 	
 	@FindBy(id = "twotabsearchtextbox")
-	WebElement searchBox;
+	private WebElement searchBox;
 	
 	@FindBy(id = "nav-search-submit-button")
-	WebElement submitSearch;
+	private WebElement submitSearch;
 	
 	@FindBy(xpath = "//span[@class='a-size-medium a-color-base a-text-normal']")
-	WebElement firstProduct;
+	private WebElement firstProduct;
+	
+	@FindBy(xpath = "//a[@class='a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal']")
+	private WebElement firstProductT2;
 	
 	@FindBy(xpath = "//a[@class='s-pagination-item s-pagination-next s-pagination-button s-pagination-separator']")
-	WebElement nextPage;
+	private WebElement nextPage;
 	
 	@FindBy(xpath = "//a[@class='s-pagination-item s-pagination-previous s-pagination-button s-pagination-separator']")
-	WebElement previousPage;
+	private WebElement previousPage;
 	
 	@FindBy(id = "glow-ingress-block")
-	WebElement deliverTo;
+	private WebElement deliverTo;
 	
 	@FindBy(id = "GLUXZipUpdateInput")
-	WebElement deliveryToText;
+	private WebElement deliveryToText;
 	
 	@FindBy(xpath = "//div[@class='a-column a-span4 a-span-last']/span/span")
-	WebElement submitZip;
+	private WebElement submitZip;
 	
 	@FindBy(xpath = "//div[@class='a-popover-wrapper']/div[2]/span/span/input")
-	WebElement submitDeliveryTo;
+	private WebElement submitDeliveryTo;
 	
 	public void searchProduct(String product) {
 		Actions action = new Actions(lDriver);
@@ -54,6 +57,10 @@ public class SearchPage {
 	
 	public void clickFirstProduct() {
 		firstProduct.click();
+	}
+	
+	public void clickFirstProductT2() {
+		firstProductT2.click();
 	}
 	
 	public void clickNextPage() {

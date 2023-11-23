@@ -15,31 +15,31 @@ public class RegisterPage {
 	}
 
 	@FindBy(xpath = "//a[@id='nav-link-accountList']")
-	WebElement register;
+	private WebElement register;
 
 	@FindBy(id = "createAccountSubmit")
-	WebElement newUser;
+	private WebElement newUser;
 
 	@FindBy(id = "ap_customer_name")
-	WebElement newUserName;
+	private WebElement newUserName;
 
 	@FindBy(id = "ap_email")
-	WebElement newUserEmail;
+	private WebElement newUserEmail;
 
 	@FindBy(id = "ap_password")
-	WebElement newUserPassword;
+	private WebElement newUserPassword;
 
 	@FindBy(id = "ap_password_check")
-	WebElement newUserPasswordCheck;
+	private WebElement newUserPasswordCheck;
 
 	@FindBy(id = "continue")
-	WebElement continueNewRegistration;
+	private WebElement continueNewRegistration;
 
 	@FindBy(xpath = "//div[@class='a-section a-spacing-extra-large']/span/span/span/span[2]")
-	WebElement phoneText;
+	private WebElement phoneText;
 
 	@FindBy(xpath = "//div[@class='a-section a-spacing-extra-large']/span/span/span/span[3]")
-	WebElement emailText;
+	private WebElement emailText;
 
 	public void clickRegister() {
 		register.click();
