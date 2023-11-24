@@ -14,7 +14,7 @@ public class TC_RegisterTest extends BaseClass {
 	String tempUserName = randomeString(8);
 	String tempEmail = tempUserName + "@gmail.com";
 	String tempMobileNumber = randomNum(10);
-	
+
 	@BeforeMethod
 	public void invokeBaseURL() {
 		driver.get(baseUrlUs);

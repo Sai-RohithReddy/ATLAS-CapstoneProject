@@ -20,7 +20,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 import com.amazon.pageobject.LoginPage;
-import com.amazon.pageobject.SearchPage;
 import com.amazon.utilities.ReadConfig;
 
 public class BaseClass {
@@ -35,7 +34,7 @@ public class BaseClass {
 	public static String mySqlUser = readConfig.getMySqlUser();
 	public static String mySqlPassword = readConfig.getMySqlPassword();
 	public static String mySqlDB = readConfig.getDatabaseName();
-	
+
 	public static WebDriver driver;
 	public static Logger logger;
 
@@ -64,6 +63,7 @@ public class BaseClass {
 		driver.quit();
 	}
 
+	// Function is used to capture screen shorts
 	public void captureScreen(WebDriver driver, String tName) throws IOException {
 		Date currDate = new Date();
 		String tStamp = currDate.toString().replace(" ", "-").replace(":", "-");
@@ -74,16 +74,19 @@ public class BaseClass {
 		FileUtils.copyFile(source, destination);
 	}
 
+	// Function is used to generate random String based on size provided
 	public String randomeString(int size) {
 		String generatedString = RandomStringUtils.randomAlphabetic(size);
 		return generatedString;
 	}
 
+	// Function is used to generate random Numbers based on size provided
 	public String randomNum(int size) {
 		String randomNumeric = RandomStringUtils.randomNumeric(size);
 		return randomNumeric;
 	}
 
+	// Function is used to Sign In to amazon account
 	public void signIn() {
 		LoginPage lp = new LoginPage(driver);
 		lp.clickSignIn();
@@ -93,6 +96,7 @@ public class BaseClass {
 		lp.submitSignIn();
 	}
 
+	// Function is used to Sign Out from amazon account
 	public void signOut() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
 		lp.SignOut();

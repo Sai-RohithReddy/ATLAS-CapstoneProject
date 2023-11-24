@@ -32,12 +32,12 @@ public class LoginPage {
 
 	@FindBy(xpath = "//a[@id='nav-link-accountList']/div/span")
 	private WebElement confText;
-	
+
 	@FindBy(id = "nav-item-signout")
 	private WebElement signOutText;
-	
-//	@FindBy(xpath = "//div[@class='a-alert-content']/ul/li/span")
-//	private WebElement problemText;
+
+	@FindBy(xpath = "//div[@class='a-alert-content']/ul/li/span")
+	private WebElement problemText;
 
 	public void clickSignIn() {
 		signIn.click();
@@ -63,12 +63,12 @@ public class LoginPage {
 		String text = confText.getText();
 		return text;
 	}
-	
-//	public String getProblemText() {
-//		String text = problemText.getText();
-//		return text;
-//	}
-	
+
+	public String getProblemText() {
+		String text = problemText.getText();
+		return text;
+	}
+
 	public void SignOut() throws InterruptedException {
 		Actions action = new Actions(lDriver);
 		action.moveToElement(signIn).build().perform();

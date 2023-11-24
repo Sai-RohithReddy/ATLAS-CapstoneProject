@@ -72,18 +72,6 @@ public class TC_LoginTest extends BaseClass {
 
 	}
 
-	public boolean isValidEmail() {
-		return !driver.getPageSource().contains("We cannot find an account with that email address");
-	}
-
-	public boolean isValidPassword() {
-		return !driver.getPageSource().contains("Your password is incorrect");
-	}
-
-	public boolean isPuzzleCheckEnabled() {
-		return driver.getPageSource().contains("Solve this puzzle to protect your account");
-	}
-
 	@DataProvider(name = "LoginData")
 	String[][] getData() throws IOException {
 
@@ -100,4 +88,20 @@ public class TC_LoginTest extends BaseClass {
 		}
 		return logindata;
 	}
+
+	// Helper function to validate entered email is valid or not
+	public boolean isValidEmail() {
+		return !driver.getPageSource().contains("We cannot find an account with that email address");
+	}
+
+	// Helper function to validate entered password is valid or not
+	public boolean isValidPassword() {
+		return !driver.getPageSource().contains("Your password is incorrect");
+	}
+
+	// Helper function to check if Puzzle Check is Enabled while sign in
+	public boolean isPuzzleCheckEnabled() {
+		return driver.getPageSource().contains("Solve this puzzle to protect your account");
+	}
+
 }

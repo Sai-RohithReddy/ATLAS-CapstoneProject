@@ -46,6 +46,7 @@ public class TC_DataBaseTest {
  		
  	}
 	
+ 	// Function is used to execute query which fetches total order list from amazondb data base
 	public static void displayOrderList(Statement stmt) throws SQLException {
 		
 		String query = "SELECT orders.order_id, customers.first_name, products.product_name, products.product_prise, orders.order_quantity, orders.total_amount \r\n"
@@ -72,6 +73,7 @@ public class TC_DataBaseTest {
 		System.out.println("-------------------------------------------------------------------------------\n");
 	}
 	
+	// Function is used to execute query which fetches product which has highest price in products table
 	public static String getMaxPriceProduct(Statement stmt) throws SQLException {
 		
 		String query = "SELECT * FROM products\r\n"
@@ -97,6 +99,7 @@ public class TC_DataBaseTest {
 		return productName;
 	}
 	
+	// Function is used to execute query which fetches maximum sold product from amazondb data base
 	public static String getMaxSoldProduct(Statement stmt) throws SQLException {
 		
 		String query = "SELECT product_name, SUM(order_quantity) AS total_sold\r\n"

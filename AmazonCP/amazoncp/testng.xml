@@ -6,31 +6,31 @@
 		<classes>
 			<class name="com.amazon.testcases.TC_RegisterTest">
 				<methods>
-					<exclude name="testNewRegistrationWithEmail" />
-					<exclude name="testNewRegistrationWithMobileNumber" />
+					<include name="testNewRegistrationWithEmail" />
+					<include name="testNewRegistrationWithMobileNumber" />
 				</methods>
 			</class>
 			<class name="com.amazon.testcases.TC_LoginTest">
 				<methods>
-					<exclude name="testLoginDDT" />
-					<exclude name="testLogin" />
+					<include name="testLoginDDT" />
+					<include name="testLogin" />
 				</methods>
 			</class>
 			<class name="com.amazon.testcases.TC_SearchTest">
 				<methods>
-					<exclude name="testSearchProduct" />
+					<include name="testSearchProduct" />
 				</methods>
 			</class>
 			<class name="com.amazon.testcases.TC_CartFunctionalityTest">
 				<methods>
-					<exclude name="testAddToCart" />
-					<exclude name="testAddToCartUs" />
-					<exclude name="testRemoveFromCart" />
+					<include name="testAddToCart" />
+					<include name="testAddToCartUs" />
+					<include name="testRemoveFromCart" />
 				</methods>
 			</class>
 			<class name="com.amazon.testcases.TC_CheckOutTest">
 				<methods>
-					<exclude name="testCheckOut" />
+					<include name="testCheckOut" />
 				</methods>
 			</class>
 			<class name="com.amazon.testcases.TC_DataBaseTest">

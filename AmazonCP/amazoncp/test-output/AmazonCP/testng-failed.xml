@@ -6,9 +6,18 @@
     <classes>
       <class name="com.amazon.testcases.TC_DataBaseTest">
         <methods>
+          <include name="testMaxPriceQuery"/>
           <include name="testMostSoldOutProductQuery"/>
         </methods>
       </class> <!-- com.amazon.testcases.TC_DataBaseTest -->
+      <class name="com.amazon.testcases.TC_CartFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testAddToCartUs"/>
+          <include name="testRemoveFromCart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.amazon.testcases.TC_CartFunctionalityTest -->
     </classes>
   </test> <!-- EcommerceTest(failed) -->
 </suite> <!-- Failed suite [AmazonCP] -->

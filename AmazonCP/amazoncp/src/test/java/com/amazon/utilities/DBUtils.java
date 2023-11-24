@@ -20,7 +20,7 @@ public class DBUtils {
 
 		return conn;
 	}
-	
+
 	public static Connection getDBConnection(String user, String pwd, String db) {
 
 		try {

@@ -19,6 +19,7 @@ public class XLUtils {
 	public static XSSFRow row;
 	public static XSSFCell cell;
 
+	// Function is used to get row size
 	public static int getRowCount(String xlfile, String xlsheet) throws IOException {
 
 		fi = new FileInputStream(xlfile);
@@ -31,6 +32,7 @@ public class XLUtils {
 
 	}
 
+	// Function is used to get column size
 	public static int getCellCount(String xlfile, String xlsheet, int rownum) throws IOException {
 
 		fi = new FileInputStream(xlfile);
@@ -44,6 +46,7 @@ public class XLUtils {
 
 	}
 
+	// Function is used to get the cell data based on given row number and column number
 	public static String getCellData(String xlfile, String xlsheet, int rownum, int colnum) throws IOException {
 
 		fi = new FileInputStream(xlfile);
@@ -65,6 +68,7 @@ public class XLUtils {
 
 	}
 
+	// Function is used to insert/update the data in cell based on given row number and column number
 	public static void setCellData(String xlfile, String xlsheet, int rownum, int colnum, String data)
 			throws IOException {
 

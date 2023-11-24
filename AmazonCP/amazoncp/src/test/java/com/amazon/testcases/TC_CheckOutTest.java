@@ -15,7 +15,7 @@ import com.amazon.utilities.DBUtils;
 public class TC_CheckOutTest extends BaseClass {
 
 	String product = "football";
-	String quantity = "5";
+	String quantity = "2";
 
 	String dummyFirstName = randomeString(5);
 	String dummyLastName = randomeString(4);
@@ -101,40 +101,16 @@ public class TC_CheckOutTest extends BaseClass {
 		signOut();
 	}
 
+	// Helper function to check if order is successfully placed
 	public boolean isOrderPlaced() {
 		return driver.getPageSource().contains("Place Your Order and Pay");
 	}
 
+	// Function is used to update order table with latest order placed
 	public void updateOrdersTable(String product, String customer, String order_quantity) throws SQLException {
 
 		Connection conn = DBUtils.getDBConnection();
 		Statement stmt = conn.createStatement();
-
-//		String productIdQuery = "SELECT product_id FROM products WHERE product_name = \"" + product + "\"";
-//		String productPriseQuery = "SELECT product_prise FROM products WHERE product_name = \"" + product + "\"";
-//		String customerIdQuery = "SELECT customer_id FROM customers WHERE first_name = \"" + customer + "\"";
-
-//		int productId = -1;
-//		int customerId = -1;
-//		double productPrise = -1;
-
-//		ResultSet productIdQueryRs = stmt.executeQuery(productIdQuery);
-//
-//		while (productIdQueryRs.next()) {
-//			productId = productIdQueryRs.getInt("product_id");
-//		}
-
-//		ResultSet productPriseQueryRs = stmt.executeQuery(productPriseQuery);
-//
-//		while (productPriseQueryRs.next()) {
-//			productPrise = productPriseQueryRs.getInt("product_prise");
-//		}
-
-//		ResultSet customerIdQueryRs = stmt.executeQuery(customerIdQuery);
-//
-//		while (customerIdQueryRs.next()) {
-//			customerId = customerIdQueryRs.getInt("customer_id");
-//		}
 
 		int productId = getProductID(stmt, product);
 		int customerId = getCustomerID(stmt, customer);
@@ -150,7 +126,7 @@ public class TC_CheckOutTest extends BaseClass {
 			stmt.execute(insertQuery);
 		}
 
-		conn.close();
+//		conn.close();
 	}
 
 	// Helper functions to get Product Id from products table
@@ -185,7 +161,7 @@ public class TC_CheckOutTest extends BaseClass {
 		return customerId;
 	}
 
-	// Helper function to get Product prose for products table
+	// Helper function to get Product price for products table
 	public double getProductPrise(Statement stmt, String pName) throws SQLException {
 
 		double productPrise = -1;
