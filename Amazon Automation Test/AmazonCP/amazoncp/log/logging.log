@@ -445,4 +445,5 @@
  2023-11-24 11:53:19 INFO  BaseClass:90 - Payment Details Entered Successfully
  2023-11-24 11:53:34 INFO  BaseClass:94 - Product name: football Quantity: 2 Placed Successfully
  2023-11-24 11:53:34 INFO  BaseClass:97 - Order table is updated with Product name: football, Quantity: 2
+ 2023-11-30 15:34:32 INFO  BaseClass:30 - testLogin executed successfully
  
